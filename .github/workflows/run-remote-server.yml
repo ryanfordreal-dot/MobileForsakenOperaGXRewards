@@ -20,8 +20,8 @@ jobs:
     runs-on: windows-latest
     timeout-minutes: 370
     env:
-      RDP_USER: gubby
-      RDP_PASS: gubby
+      RDP_USER: Gubby
+      RDP_PASS: Gubby@123
 
     steps:
       - name: Purge gubby device (if any)
